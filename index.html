@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutej Tanneru - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .body { 
+           
+           opacity: 0;
+           animation: fadeIn 3s forwards;
+       }
+
+       @keyframes fadeIn {
+           from {
+               opacity: 0;
+           }
+           to {
+               opacity: 1;
+           }
+       }
+    </style>
+</head>
+<body>    
+    <div class="navbar" >
+        <div class="name">My Portfolio</div>
+        <div class="navelements">
+            <ul style="list-style: none; ">
+              <div class="header">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i>About</a></li>
+                 <li><a href="achievements.html"><i class="fas fa-trophy"></i>Achievements</a></li>
+                <li><a href="projects.html"><i class="fas fa-project-diagram"></i>Projects</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </div>
+                <li>
+                    <a href="menu.html" class="menu">Menu <i class="fas fa-caret-down"></i></a>
+                    <div class="dropmenu">
+                        <ul style="list-style: none;">
+                            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-user"></i>About</a></li>
+                            <li><a href="achievements.html"><i class="fas fa-trophy"></i>Achievements</a></li>
+                            <li><a href="projects.html"><i class="fas fa-project-diagram"></i>Projects</a></li>
+                            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+        
+        
+        
+    </div>
+    <div class="body">
+    <div class="details">
+        <div class="imageofmine">
+          <img src="imagesofprofiles/WhatsApp Image 2024-10-23 at 06.52.20_1b5d560a.jpg" alt="Profile Picture">
+        </div>
+        <div class="biodata">
+            <p class="hi">Hi, It's <span>Sutej Tanneru</span></p>
+            <p class=" skill typing">
+                I'm <span class="word"></span>
+            </p>
+            <p class="para">
+                I am a Bachelor of Technology student specializing in Computer Science and Engineering at KL University. I have a strong foundation in C, Core Java, Data Structures and Algorithms (DSA), MySQL, Machine Learning (ML), and Next.js. My enthusiasm for coding and problem-solving drives me to approach challenges with determination and creativity. I am committed to learning and growing, consistently striving to enhance my technical skills and deliver efficient, high-quality solutions. I excel in tackling complex tasks, embracing opportunities to innovate, and pushing beyond limits to achieve success.
+            </p>
+                <div class="logos">
+                    <a href="https://github.com/Sutejthanneru" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sutej-tanneru-0006202a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+            
+                    </a>
+                    <a href="https://www.instagram.com/sutej_thanneru/profilecard/?igsh=MWc2a3JzcW1heDI3Zg==" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                 
+                    </a>
+                </div>
+          <div class="button" style="padding: 20px;">
+  <a href="imagesofprofiles/sutejresume-flipkart.pdf" download>
+    <button>Download CV</button>
+  </a>
+</div>
+    </div>
+</div>
+    <footer class="footer">
+        Made with <span class="love">&#10084;</span> By Mr. Sutej Tanneru
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".word", {
+            strings: ["Frontend Web developer", "Programmer", "Tech Enthusiast"],
+            typeSpeed: 150,
+            backSpeed: 130,
+            loop: true
+        });
+        
+    </script>
+</body>
+</html>
