@@ -50,5 +50,4 @@ If you want, I can help you fill in your GitHub repo link or hosting link (for a
 
 
 
-Ask ChatGPT
 
